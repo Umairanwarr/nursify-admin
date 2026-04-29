@@ -7,13 +7,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html",
-      "has": [
-        {
-          "type": "host",
-          "value": "(?!api)"
-        }
-      ]
+      "destination": "/index.html"
     }
   ]
 }
