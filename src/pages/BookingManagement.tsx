@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Card from '../components/Card';
-import { Calendar, MapPin, Clock, DollarSign } from 'lucide-react';
+import { Calendar, MapPin } from 'lucide-react';
 import { API_URL } from '../config/api';
 
 interface Booking {

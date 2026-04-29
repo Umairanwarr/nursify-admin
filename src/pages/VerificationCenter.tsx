@@ -274,7 +274,7 @@ export default function VerificationCenter() {
                           }}
                         />
                         <button
-                          onClick={() => setViewImage(selectedUser.cnicFront)}
+                          onClick={() => setViewImage(selectedUser.cnicFront ?? null)}
                           className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
                         >
                           <ZoomIn className="w-8 h-8 text-white" />
@@ -299,7 +299,7 @@ export default function VerificationCenter() {
                           }}
                         />
                         <button
-                          onClick={() => setViewImage(selectedUser.cnicBack)}
+                          onClick={() => setViewImage(selectedUser.cnicBack ?? null)}
                           className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
                         >
                           <ZoomIn className="w-8 h-8 text-white" />

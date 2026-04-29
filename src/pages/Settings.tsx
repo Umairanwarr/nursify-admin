@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Card from '../components/Card';
-import { Save, Users, Shield, Bell } from 'lucide-react';
+import { Save, Users, Shield } from 'lucide-react';
 
 export default function Settings() {
   const [settings, setSettings] = useState({
